@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Aprendiendo a usar Mailer Component en Symfony{% endblock %}
+
+{% block body %}
+
+    Pinche el enlace para <a href='{{ path('mail') }}'>enviar correo</a>
+    <br /><br />
+    Pinche el enlace para <a href='{{ path('mail_template') }}'>enviar correo con plantilla HTML</a>
+{% endblock %}
